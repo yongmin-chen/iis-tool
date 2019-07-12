@@ -218,6 +218,7 @@ goto:eof
 :I
 cls
 SET root_path=c:\wwwroot
+SET /P root_path=   请输入站点的根目录: 
 SET site_name=
 SET /P site_name=    请输入网站主域名，然后按回车：
 :: 创建进程池
